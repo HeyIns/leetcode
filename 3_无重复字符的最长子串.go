@@ -1,5 +1,3 @@
-package main
-
 func lengthOfLongestSubstring(s string) int {
     if s == "" {
         return 0
@@ -18,8 +16,4 @@ func lengthOfLongestSubstring(s string) int {
         maps[s[j]] = j + 1
     }
     return max_length
-}
-
-func main() {
-    
 }

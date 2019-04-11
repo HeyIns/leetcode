@@ -1,11 +1,3 @@
-/*
-* @Author: Ins
-* @Date:   2019-04-01 13:02:43
-* @Last Modified by:   Ins
-* @Last Modified time: 2019-04-01 16:57:33
-*/
-package main
-
 type ListNode struct {
     Val int
     Next *ListNode

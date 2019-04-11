@@ -1,5 +1,3 @@
-package main
-
 func twoSum(nums []int, target int) []int {
     maps := map[int]int{}
     for k, v := range nums {
@@ -11,8 +9,4 @@ func twoSum(nums []int, target int) []int {
         }
     }
     return nil
-}
-
-func main() {
-    
 }

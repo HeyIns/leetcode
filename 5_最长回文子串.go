@@ -1,5 +1,3 @@
-package main
-
 func longestPalindrome(s string) string {
     ss := "#"
     for _, v := range s {
@@ -17,8 +15,4 @@ func longestPalindrome(s string) string {
         }
     }
     return s[(index - radius) / 2 : (index + radius) / 2]
-}
-
-func main() {
-    
 }

@@ -1,5 +1,3 @@
-package main
-
 func maxSubArray(nums []int) int {
     res, sum := nums[0], 0
     for _, num := range(nums) {
@@ -13,8 +11,4 @@ func maxSubArray(nums []int) int {
         }
     }
     return res
-}
-
-func main() {
-    
 }
